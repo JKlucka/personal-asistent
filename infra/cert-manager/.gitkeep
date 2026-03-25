@@ -1,0 +1,6 @@
+# infra/cert-manager/
+#
+# This directory will hold cert-manager configuration:
+#   - ClusterIssuer manifest using Let's Encrypt + Cloudflare DNS-01 challenge
+#   - Cloudflare API token secret reference
+#   - Certificate resources (if not auto-provisioned via Ingress annotations)

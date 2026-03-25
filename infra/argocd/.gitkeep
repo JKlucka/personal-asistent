@@ -1,0 +1,6 @@
+# infra/argocd/
+#
+# This directory will hold ArgoCD configuration:
+#   - ArgoCD install values (Helm override for the argocd chart)
+#   - App-of-apps Application manifest pointing to this repo
+#   - Individual Application manifests for each service (backend, traefik, cert-manager)

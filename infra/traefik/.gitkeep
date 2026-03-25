@@ -1,0 +1,6 @@
+# infra/traefik/
+#
+# This directory will hold Traefik configuration:
+#   - Helm values override file (values.yaml) for the Traefik chart
+#   - Middleware CRDs (e.g. strip-prefix, headers, rate-limiting)
+#   - IngressRoute definitions if not colocated with k8s/ manifests

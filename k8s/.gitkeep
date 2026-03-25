@@ -1,0 +1,9 @@
+# k8s/
+#
+# This directory will hold Kubernetes manifests for the personal-assistant application:
+#   - Deployment        (backend pod spec, replicas, resource limits)
+#   - Service           (ClusterIP for internal traffic)
+#   - Ingress           (Traefik IngressRoute or standard Ingress for TLS termination)
+#   - PersistentVolumeClaim  (if local storage is needed alongside the DB)
+#
+# Manifests are applied via ArgoCD (see infra/argocd/).
