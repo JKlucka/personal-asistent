@@ -1,4 +1,4 @@
--- V1: Initial schema
+    -- V1: Initial schema
 -- Creates the core entries table for the personal assistant
 
 CREATE TABLE IF NOT EXISTS entries (
